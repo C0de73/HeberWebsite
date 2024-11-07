@@ -1,0 +1,122 @@
+/* #region Heroimgs*/
+
+header {
+
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+.title {
+
+    text-align: center;
+    font-size: 70px;
+
+}
+
+#home {
+
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(Images/image\ 1.jpg);
+
+    height: 35vw;
+    background-position: center center;
+    background-attachment:fixed;
+
+
+}
+
+#Sight {
+
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(Images/Image\ sights.jpg);
+    height: 35vw;
+    background-position: center center;
+    background-attachment:fixed;
+
+}
+#Food {
+
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)), url(Images/Fast-Food-Restaurants.jpg);
+    
+    height: 35vw;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+#Activities{
+
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)),url(Images/Image\ Activities.webp);
+
+    height: 35vw;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.body {
+
+background-color: gray;
+margin: 0;
+height: 100%;
+
+}
+
+
+/* #endregion*/
+/* #region BODY */
+
+body {
+    margin: 0;
+}
+nav>ul {
+
+    font-size: 50px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    
+
+}
+nav>ul>a {
+
+margin-left: 10%;
+background-color: black;
+text-align: center;
+color: black;
+list-style: none;
+}
+
+nav>ul>a>li{
+        text-decoration: none;
+        color: white;
+}
+h1 {
+
+text-align: center;
+font-size: 50px;
+
+
+}
+p{
+
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 40%;
+    margin-left: 33%;
+    line-height: 3vw;
+    font-size: 30px;
+
+
+}
+img {
+
+    width: 30vw;
+}
+#Active {
+
+    color: black;
+    font-size: 1pt;
+}
+/*#end region BODY */
+
