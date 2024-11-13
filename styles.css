@@ -13,7 +13,7 @@ header {
 .title {
 
     text-align: center;
-    font-size: 70px;
+    height: 10%;
 
 }
 
@@ -113,10 +113,77 @@ img {
 
     width: 30vw;
 }
+
 #Active {
 
     color: black;
     font-size: 1pt;
 }
 /*#end region BODY */
+
+
+/* #region Navbar Phone*/
+
+@media screen and (max-width:420px){
+
+
+    #home {
+
+        height: max-content;
+
+    }
+    #Sight{
+
+        height: max-content;
+
+    }
+    #Food{
+
+        height: max-content;
+
+    }
+    #Activities{
+
+        height: max-content;
+
+    }
+    nav>ul {
+
+        flex-direction: column;
+        margin-left: 0%;
+        padding-left: 0;
+
+
+    }
+    nav>ul>a>li {
+
+        margin: 0;
+        border-radius: 0%;
+        text-align: center;
+        
+
+    }
+    p {
+
+        margin-left: 10%;
+        width: 80%;
+        font-size: 5vw;
+        line-height: 5vw;
+        
+    }
+    img{
+
+        width: 70%;
+
+
+    };
+
+
+
+   
+
+}
+
+
+/*#endregion*/
 
